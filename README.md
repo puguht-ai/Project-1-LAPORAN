@@ -9,6 +9,7 @@ Cakupan dokumen dalam project ini meliputi beberapa jenis laporan kerja, antara 
 - Laporan Kunjungan Pengawasan
 - Laporan 4 Pilar
 - KUNDAPIL
+- Laporan Reses
 - Screening Berita Ekonomi (nasional & global)
 
 ## Struktur File Utama (saat ini)
@@ -21,10 +22,10 @@ Cakupan dokumen dalam project ini meliputi beberapa jenis laporan kerja, antara 
 - `7 Pagi presensii ST. Yohanes Pemandi.pdf`
 - `Daftar_Hadir_4_Pilar.docx`
 
-Laporan final bulanan (Rumah Aspirasi, Kunjungan Pengawasan, KUNDAPIL, dst) **tidak disimpan di
-repo git** karena ukurannya besar — semua diarsipkan per kategori/bulan di
-`D:\DATA PAPA\LAPORAN\` (lihat subfolder `RUMAH ASPIRASI`, `KUNWAS`, `KUNDAPIL`, `4 PILAR`,
-`BLACBOX POOL`).
+Laporan final bulanan (Rumah Aspirasi, Kunjungan Pengawasan, KUNDAPIL, Reses, dst) **tidak
+disimpan di repo git** karena ukurannya besar — semua diarsipkan per kategori/bulan di
+`D:\DATA PAPA\LAPORAN\` (lihat subfolder `RUMAH ASPIRASI`, `KUNWAS`, `KUNDAPIL`, `RESES`,
+`4 PILAR`, `BLACBOX POOL`).
 
 ### Script Python
 - `create_daftar_hadir_4pilar.py`
