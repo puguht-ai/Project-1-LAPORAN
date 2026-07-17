@@ -34,6 +34,7 @@ kategori/bulan di `D:\DATA PAPA\LAPORAN\` (lihat subfolder `RUMAH ASPIRASI`, `KU
 ### Script Python
 - `create_daftar_hadir_4pilar.py`
 - `create_kundapil_docx.py`
+- `create_kunwas_docx.py`
 - `create_lapsos_docx.py`
 - `create_kunspek_docx.py`
 
@@ -53,6 +54,7 @@ Contoh:
 
 ```bash
 python create_kundapil_docx.py
+python create_kunwas_docx.py
 python create_daftar_hadir_4pilar.py
 python create_lapsos_docx.py
 python create_kunspek_docx.py
