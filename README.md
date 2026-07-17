@@ -10,6 +10,8 @@ Cakupan dokumen dalam project ini meliputi beberapa jenis laporan kerja, antara 
 - Laporan 4 Pilar
 - KUNDAPIL
 - Laporan Reses
+- Laporan Sosialisasi Undang-Undang (Lapsos UU)
+- Laporan Kunjungan Spesifik (Kunspek)
 
 Screening Berita Ekonomi (nasional & global) kini dikelola di repo terpisah:
 [Screening-Berita-Ekonomi](https://github.com/puguht-ai/Screening-Berita-Ekonomi).
@@ -24,14 +26,16 @@ Screening Berita Ekonomi (nasional & global) kini dikelola di repo terpisah:
 - `7 Pagi presensii ST. Yohanes Pemandi.pdf`
 - `Daftar_Hadir_4_Pilar.docx`
 
-Laporan final bulanan (Rumah Aspirasi, Kunjungan Pengawasan, KUNDAPIL, Reses, dst) **tidak
-disimpan di repo git** karena ukurannya besar — semua diarsipkan per kategori/bulan di
-`D:\DATA PAPA\LAPORAN\` (lihat subfolder `RUMAH ASPIRASI`, `KUNWAS`, `KUNDAPIL`, `RESES`,
-`4 PILAR`, `BLACBOX POOL`).
+Laporan final bulanan (Rumah Aspirasi, Kunjungan Pengawasan, KUNDAPIL, Reses, Lapsos UU,
+Kunspek, dst) **tidak disimpan di repo git** karena ukurannya besar — semua diarsipkan per
+kategori/bulan di `D:\DATA PAPA\LAPORAN\` (lihat subfolder `RUMAH ASPIRASI`, `KUNWAS`,
+`KUNDAPIL`, `RESES`, `LAPSOS UU`, `KUNSPEK`, `4 PILAR`, `BLACBOX POOL`).
 
 ### Script Python
 - `create_daftar_hadir_4pilar.py`
 - `create_kundapil_docx.py`
+- `create_lapsos_docx.py`
+- `create_kunspek_docx.py`
 
 ### File Konfigurasi/Konteks
 - `BLACKBOX.md`
@@ -50,7 +54,12 @@ Contoh:
 ```bash
 python create_kundapil_docx.py
 python create_daftar_hadir_4pilar.py
+python create_lapsos_docx.py
+python create_kunspek_docx.py
 ```
+
+Pendahuluan dan Penutup pada setiap laporan wajib ditulis sepanjang ±1 halaman
+(3.500–4.000 karakter) untuk menjaga bobot dan kelengkapan narasi laporan.
 
 ## Konvensi Output
 File hasil generate/final disimpan ke arsip terstruktur di:
