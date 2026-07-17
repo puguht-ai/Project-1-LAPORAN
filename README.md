@@ -10,7 +10,9 @@ Cakupan dokumen dalam project ini meliputi beberapa jenis laporan kerja, antara 
 - Laporan 4 Pilar
 - KUNDAPIL
 - Laporan Reses
-- Screening Berita Ekonomi (nasional & global)
+
+Screening Berita Ekonomi (nasional & global) kini dikelola di repo terpisah:
+[Screening-Berita-Ekonomi](https://github.com/puguht-ai/Screening-Berita-Ekonomi).
 
 ## Struktur File Utama (saat ini)
 
@@ -30,8 +32,6 @@ disimpan di repo git** karena ukurannya besar — semua diarsipkan per kategori/
 ### Script Python
 - `create_daftar_hadir_4pilar.py`
 - `create_kundapil_docx.py`
-- `create_screening_docx.py`
-- `create_screening_global.py`
 
 ### File Konfigurasi/Konteks
 - `BLACKBOX.md`
@@ -48,8 +48,8 @@ python <nama_script.py>
 Contoh:
 
 ```bash
-python create_screening_docx.py
-python create_screening_global.py
+python create_kundapil_docx.py
+python create_daftar_hadir_4pilar.py
 ```
 
 ## Konvensi Output
