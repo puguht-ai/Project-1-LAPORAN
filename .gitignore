@@ -1,0 +1,40 @@
+# Project-1-LAPORAN lives in the Windows user profile root.
+# Ignore everything by default so Git does not scan personal/system folders.
+/*
+
+# Keep this ignore file tracked
+!/.gitignore
+
+# Project documentation/context
+!/README.md
+!/BLACKBOX.md
+!/4_pilar_rilis.txt
+
+# Python report generators
+!/create_daftar_hadir_4pilar.py
+!/create_kundapil_docx.py
+!/create_kunspek_docx.py
+!/create_kunwas_docx.py
+!/create_lapsos_docx.py
+!/create_ra_juni2026.py
+
+# Tracked template/example documents
+!/7 Pagi presensii ST. Yohanes Pemandi.pdf
+!/7Pagi_Laporan Sos 4 Pilar.pdf
+!/7Pagi_Rilis 4 pilar.pdf
+!/7Pagi_Ringkasan Kegiatan.pdf
+!/Daftar_Hadir_4_Pilar.docx
+!/FINAL KUNDAPIL VI 15_17 MEI 2026.pdf
+
+# Python/cache/temp artifacts
+__pycache__/
+*.py[cod]
+*.tmp
+*.temp
+*.bak
+~$*
+
+# Local environment/secrets
+.env
+*.env
+secrets*.py
