@@ -37,6 +37,11 @@ kategori/bulan di `D:\DATA PAPA\LAPORAN\` (lihat subfolder `RUMAH ASPIRASI`, `KU
 - `create_kunwas_docx.py`
 - `create_lapsos_docx.py`
 - `create_kunspek_docx.py`
+- `create_ra_juni2026.py`
+- `create_reses_docx.py` — Laporan Reses Perseorangan (.docx)
+- `create_buku_reses_pptx.py` — Buku Laporan Reses Anggota Fraksi (.pptx), mengedit
+  langsung salinan template baku di `D:\DATA PAPA\LAPORAN\RESES\APRIL_MEI 2026\`
+  (bukan membuat layout baru), pakai data dari `create_reses_docx.py`
 
 ### File Konfigurasi/Konteks
 - `BLACKBOX.md`
